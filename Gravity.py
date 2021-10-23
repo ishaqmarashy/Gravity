@@ -29,7 +29,7 @@ def bounce(rect):
     else:
         rect.color=RED
     rect.yv*= -1*LOSS
-    rect.y=HEIGHT-1
+    rect.y=HEIGHT-SQUARE_D[0]
 
 def accelerate (rect):
     rect.yv+=GRAV
